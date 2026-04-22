@@ -1,0 +1,52 @@
+{
+  "$GMProject":"v1",
+  "%Name":"cardgame (1)",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.14.2.213",
+  },
+  "name":"cardgame (1)",
+  "resources":[
+    {"id":{"name":"fnt_points","path":"fonts/fnt_points/fnt_points.yy",},},
+    {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},},
+    {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"cardsound","path":"sounds/cardsound/cardsound.yy",},},
+    {"id":{"name":"roundlose","path":"sounds/roundlose/roundlose.yy",},},
+    {"id":{"name":"roundwin","path":"sounds/roundwin/roundwin.yy",},},
+    {"id":{"name":"spr_blue","path":"sprites/spr_blue/spr_blue.yy",},},
+    {"id":{"name":"spr_card","path":"sprites/spr_card/spr_card.yy",},},
+    {"id":{"name":"spr_harry","path":"sprites/spr_harry/spr_harry.yy",},},
+    {"id":{"name":"spr_liam","path":"sprites/spr_liam/spr_liam.yy",},},
+    {"id":{"name":"spr_louis","path":"sprites/spr_louis/spr_louis.yy",},},
+    {"id":{"name":"spr_niall","path":"sprites/spr_niall/spr_niall.yy",},},
+    {"id":{"name":"spr_orange","path":"sprites/spr_orange/spr_orange.yy",},},
+    {"id":{"name":"spr_yellow","path":"sprites/spr_yellow/spr_yellow.yy",},},
+    {"id":{"name":"spr_zayn","path":"sprites/spr_zayn/spr_zayn.yy",},},
+    {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
+    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}

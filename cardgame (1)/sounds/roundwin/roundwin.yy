@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"roundwin",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.09680272,
+  "exportDir":"",
+  "name":"roundwin",
+  "parent":{
+    "name":"cardgame (1)",
+    "path":"cardgame (1).yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"roundwin.wav",
+  "volume":1.0,
+}
