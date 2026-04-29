@@ -23,7 +23,9 @@
   "resources":[
     {"id":{"name":"fnt_points","path":"fonts/fnt_points/fnt_points.yy",},},
     {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},},
+    {"id":{"name":"obj_intromanager","path":"objects/obj_intromanager/obj_intromanager.yy",},},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
+    {"id":{"name":"Introduction","path":"rooms/Introduction/Introduction.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"cardsound","path":"sounds/cardsound/cardsound.yy",},},
     {"id":{"name":"roundlose","path":"sounds/roundlose/roundlose.yy",},},
@@ -44,6 +46,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Introduction","path":"rooms/Introduction/Introduction.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
