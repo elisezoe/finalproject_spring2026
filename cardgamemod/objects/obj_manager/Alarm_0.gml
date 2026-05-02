@@ -25,7 +25,7 @@ _card.face_up = true;
     //enemy's chance to click
     if (_card.face_index == 0)
     {
-        show_debug_message("JACK!");
+      //  show_debug_message("JACK!");
 
         global.STATE = STATE.JACK_REVEALED;
 

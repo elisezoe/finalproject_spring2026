@@ -13,7 +13,7 @@ switch (global.STATE)
 
             if (current_card != noone && current_card.face_index != 0)
             {
-                show_debug_message("MISCLICK");
+               // show_debug_message("MISCLICK");
                 global.enemy_score++;
                 audio_play_sound(roundlose, 1, false);
 
@@ -35,7 +35,7 @@ break;
     {
         if (point_distance(mouse_x, mouse_y, play_center_x, play_center_y) < 100)
         {
-            show_debug_message("PLAYER WINS");
+           // show_debug_message("PLAYER WINS");
             global.player_score++;
 			audio_play_sound(roundwin, 1, false);
 
@@ -54,7 +54,7 @@ break;
     //enemy win
     if (enemy_react_time <= 0)
     {
-        show_debug_message("ENEMY WINS");
+      //  show_debug_message("ENEMY WINS");
         global.enemy_score++;
 		
 		
@@ -78,7 +78,7 @@ break;
     //no winner
     if (reaction_timer <= 0)
     {
-        show_debug_message("TOO SLOW");
+     //   show_debug_message("TOO SLOW");
         global.enemy_score++;
 		audio_play_sound(roundlose, 1, false);
 
