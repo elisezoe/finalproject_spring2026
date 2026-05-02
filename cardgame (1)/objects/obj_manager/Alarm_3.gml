@@ -1,1 +1,0 @@
-global.STATE = STATE.RESOLVE;
